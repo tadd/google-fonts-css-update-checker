@@ -14,7 +14,8 @@ At the end, run `bundle exec ruby check.rb` to check update of CSS.
 Notification is sent to build new CSS if some update was found.
 
 FYI: You may want to run `check.rb` periodically.  Heroku Scheduler
-may help you if you use Heroku.
+may help you if you use Heroku.  One time per day execution would be
+enough.
 
 ## Environment Variables
 
