@@ -1,4 +1,4 @@
-require 'pg'
+require 'active_record'
 
 def create_table
   # todo

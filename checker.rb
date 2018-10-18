@@ -1,8 +1,10 @@
 require 'digest'
+require 'active_record'
 require 'rest-client'
 
 BUILD_HOOK = -ENV.fetch('BUILD_HOOK')
 FAMILY = -ENV.fetch('FAMILY')
+DATABASE_URL = -ENV.fetch('DATABASE_URL')
 BASE = -'https://fonts.googleapis.com/css?family='
 
 def main
@@ -27,7 +29,7 @@ def updated?(digest)
 end
 
 def latest_digest
-  # todo: use pg natively?
+  ActiveRecord::Base.establish_connection(DATABASE_URL)
 end
 
 def save(digest, created_at)
