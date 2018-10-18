@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.5.1' if ENV.key?('DYNO')
+ruby '2.5.2' if ENV.key?('DYNO')
 
 gem 'rest-client'
 gem 'activerecord'
