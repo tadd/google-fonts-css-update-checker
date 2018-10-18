@@ -6,7 +6,7 @@ Google Fonts.
 
 ## Usage
 
-1. Be ensure to set 3 environment variables. (descriptions below)
+1. Ensure to set 3 environment variables. (descriptions below)
 2. Run `bundle exec ruby init.rb` to create a table.
 3. Run `bundle exec ruby check.rb` to check update of CSS.
    Notification is sent to build new CSS if some update was found.
