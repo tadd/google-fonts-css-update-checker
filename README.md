@@ -18,7 +18,7 @@ may help you if you use Heroku.  Daily execution would be enough.
 
 ## Environment Variables
 
-These are 3 environment variables.  All are required.
+These are 3 required environment variables to run.
 
 ### `FAMILY`
 
