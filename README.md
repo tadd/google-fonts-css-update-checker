@@ -9,7 +9,8 @@ Google Fonts.
 1. Ensure to set 3 environment variables. (descriptions below)
 2. Run `bundle exec ruby init.rb` to create a table.
 3. Run `bundle exec ruby check.rb` to check update of CSS.
-   Notification is sent to build new CSS if some update was found.
+   Notification is sent as HTTP POST to build new CSS, if some update
+   was found.
 4. Now you can follow Google's improvements.  Excellent.
 
 FYI: You may want to run `check.rb` periodically.  Heroku Scheduler
