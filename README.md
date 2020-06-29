@@ -1,3 +1,16 @@
+DEPRECATED
+==========
+
+This tool was created primarily for
+https://github.com/tadd/google-fonts-font-display-swap-site. But
+now, we don't need to use it because Google officially provided
+`display=swap` parameter of Google Fonts API natively.
+
+https://developers.google.com/fonts/docs/getting_started#use_font-display
+
+We're all happy, my repos is now deprecated and archived.
+Thank you Google guys!
+
 Google Fonts CSS update checker
 ===============================
 
